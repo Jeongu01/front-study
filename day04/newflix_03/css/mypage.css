@@ -50,8 +50,6 @@
   display: flex;
   overflow-x: auto;
 }
-.continue-watching__card {
-}
 .continue-watching__header {
     font-size: 1rem;
     font-weight: bold;
@@ -78,8 +76,6 @@
 .wishlist__header {
     font-size: 1rem;
     font-weight: bold;
-}
-.wishlist-item {
 }
 .wishlist-info {
     list-style: none;
