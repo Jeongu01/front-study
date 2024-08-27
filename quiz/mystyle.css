@@ -1,0 +1,15 @@
+h1 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: blue;
+}
