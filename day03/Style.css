@@ -1,33 +1,18 @@
-* {
-  color:red;
+html,
+body {
+  height: 100%;
 }
 
-p {
-  color: blueviolet;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
-h1 {
-  font-size: 100px;
-  text-align: center;
+div {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
 }
-
-#p1 {
-  color: blue;
-}
-
-#p2 {
-  color: aqua;
-}
-
-.container {
-  color: brown;
-  background-color: cadetblue;
-}
-
-.my-class1 {
-  color: blueviolet;
-}
-
-.my-class2 {
-  background-color: aquamarine;
+#second {
+  background-color: seagreen;
 }

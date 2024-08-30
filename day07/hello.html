@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //   let  dummy = [1,0,false]
+    //     alert(dummy.indexOf(0));
+    //     alert(dummy.indexOf(false));
+    //     alert(dummy.indexOf(null));
+
+    //     alert(dummy.includes(1)); 
+
+    //     // 자바스크립트는 항등연산자 === (완전항등비교)
+
+    // // NaN 찾기 : 특수 예외
+    // const dummy1 = [NaN];
+    // alert(dummy1.indexOf(NaN));
+    // alert(dummy1.includes(NaN));
+
+    //  let length = ['I','am','Happy'].map(item => item.length);
+    //  alert(length);  //반환값이 배열 
+     
+     let length1 = [1,2,15];
+     length1.sort();
+    //alert("2" > "15");
+    // function compareNumber(n1,n2){
+    //     if(n1 > n2) return 1;
+    //     if(n1 == n2) return 0;
+    //     if(n1 < n2) return -1  }
+     
+    //   length1.sort(compareNumber);
+    //   alert(length1);
+    //  요소를 정렬할때 문자열로 취급한다. 
+
+     //문자열 localeCompare 사용한다. 유니코드 기준 비교 
+
+     let nation = ['Korea','Japan','America'];
+     alert(nation.sort((a,b)=>a>b?1:-1));
+     
+    alert(nation.sort((a, b) => a.localeCompare(b)));
+    </script>
+
+
+</body>
+</html>

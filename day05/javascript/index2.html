@@ -1,10 +1,12 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+</head>
+<body>
     <script>
         let date = new Date();
 
@@ -15,15 +17,26 @@
         let minutes = date.getMinutes();
         let seconds = date.getSeconds();
 
-        if(hours < 12) {
-            alert('오전');
+        alert('DAY : ' + (day) + '요일 입니다.');
+
+        if (day == 0) {
+            alert('일요일');
         }
-        if(12<=hours) {
-            alert('오후');
+        if (day == 1) {
+            alert('월요일');
         }
+         if (day == 2) {
+                alert('화요일');
+            }
+    if (day == 3) {
+        alert('수요일');
+    }
+   
+
+ let momo = 'test';
+    alert(momo);
     </script>
-</head>
-<body>
-    
 </body>
+
+
 </html>
